@@ -1,6 +1,6 @@
 ### Datasets used in the article "Deep learning of contagion dynamics on complex networks"
 
-This repository contains the raw and processed datasets as well as the scripts used to generate the latter.
+This repository contains the raw and processed datasets as well as the [notebook]() used to generate the latter.
 
 
 #### Number of cases
