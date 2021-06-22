@@ -23,8 +23,8 @@ Here, we show how the Covid-19 dataset in processed using the raw datasets. Two 
 - Official data from the [Instituto Nacional de Estadística](https://www.ine.es).
 
 ### Mobility data
-- raw files: `VI_J00.csv`, ..., `VI_J12.csv` and `VI_O00.csv`, ..., `VI_O15.csv`
-- processed files: `province_mobility.data`
+- raw files (unzipped): `VI_J00.csv`, ..., `VI_J12.csv` and `VI_O00.csv`, ..., `VI_O15.csv`
+- processed file: `province_mobility.data`
 - details:
   - column `Origen` denotes the outbound province using the [INE's naming convention for the provinces]
   - column `Destino` denotes the inbound province using the [INE's naming convention for the provinces]
