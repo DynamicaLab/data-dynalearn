@@ -2,6 +2,7 @@
 
 This repository contains the raw and processed datasets as well as the [notebook](covid-data-processing.ipynb) used to generate the latter.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5015063.svg)](https://doi.org/10.5281/zenodo.5015063)
 
 #### Number of cases
 - raw file: `cases-timeseries-20210327.csv`
