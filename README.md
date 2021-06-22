@@ -1,6 +1,4 @@
-# data-dynalearn
-
-Datasets and associated scripts used in the article
+### Datasets and associated scripts used in the article
 
 _Deep learning of contagion dynamics on complex networks_, arXiv:1904.10814.<br>
 [Charles Murphy](https://scholar.google.ca/citations?user=xgBmSD8AAAAJ&hl=en&oi=sra),
@@ -8,10 +6,9 @@ _Deep learning of contagion dynamics on complex networks_, arXiv:1904.10814.<br>
 [Antoine Allard](http://antoineallard.info),<br>
 [arXiv](https://arxiv.org/abs/1904.10814)
 
-## Datasets
 We show how the Covid-19 dataset is processed from the raw datasets. Two files are needed and are located in the `raw-dataset` directory of the repository:
 
-### Number of cases
+#### Number of cases
 - raw file: `cases-timeseries-20210327.csv`
 - processed file: `cases-timeseries.data`
 - details:
@@ -21,7 +18,7 @@ We show how the Covid-19 dataset is processed from the raw datasets. Two files a
 - official data from the [Centro Nacional de Epidemiología](https://cnecovid.isciii.es).
 - [original file](https://cnecovid.isciii.es/covid19/resources/casos_tecnica_provincia.csv) downloaded on 2021-03-27.
 
-### Province population sizes
+#### Province population sizes
 - raw file: `population-data.csv`.
 - processed file: `population.data`.
 - details:
@@ -30,7 +27,7 @@ We show how the Covid-19 dataset is processed from the raw datasets. Two files a
 - official data from the [Instituto Nacional de Estadística](https://www.ine.es).
 - [original file](https://www.ine.es/jaxiT3/Datos.htm?t=2917) for the year 2019 downloaded on 2020-08-11.
 
-### Mobility data
+#### Mobility data
 - raw files (unzipped): `VI_J00.csv`, ..., `VI_J12.csv` and `VI_O00.csv`, ..., `VI_O15.csv`
 - processed file: `province_mobility.data`
 - details:
