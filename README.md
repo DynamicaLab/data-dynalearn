@@ -12,7 +12,7 @@ Here, we show how the Covid-19 dataset in processed using the raw datasets. Two 
   - column `provincia_iso` corresponds to the province using the [ISO 3166-2:ES] naming convention;
   - column `fecha` indicates the date in format `YYYY-MM-DD`;
   - column `num_casos` provides the number of daily new cases.
-- [original file](https://cnecovid.isciii.es/covid19/resources/datos_provincias.csv) downloaded on 2021-03-27.
+- [original file](https://cnecovid.isciii.es/covid19/resources/casos_tecnica_provincia.csv) downloaded on 2021-03-27.
 
 ### Province population sizes
 - raw file: `population-data.csv`.
