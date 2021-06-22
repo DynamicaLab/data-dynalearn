@@ -1,6 +1,12 @@
 # data-dynalearn
 
-Datasets and associated scripts used in the article [_Deep learning of contagion dynamics on complex networks_].
+Datasets and associated scripts used in the article
+
+_Deep learning of contagion dynamics on complex networks_, arXiv:1904.10814.<br>
+[Charles Murphy](https://scholar.google.ca/citations?user=xgBmSD8AAAAJ&hl=en&oi=sra),
+[Edward Laurence](https://edwardlaurence.me/) and
+[Antoine Allard](http://antoineallard.info),<br>
+[arXiv](https://arxiv.org/abs/1904.10814)
 
 ## Datasets
 We show how the Covid-19 dataset is processed from the raw datasets. Two files are needed and are located in the `raw-dataset` directory of the repository:
@@ -12,6 +18,7 @@ We show how the Covid-19 dataset is processed from the raw datasets. Two files a
   - column `provincia_iso` corresponds to the province using the [ISO 3166-2:ES] naming convention;
   - column `fecha` indicates the date in format `YYYY-MM-DD`;
   - column `num_casos` provides the number of daily new cases.
+- official data from the [Centro Nacional de Epidemiología](https://cnecovid.isciii.es).
 - [original file](https://cnecovid.isciii.es/covid19/resources/casos_tecnica_provincia.csv) downloaded on 2021-03-27.
 
 ### Province population sizes
@@ -30,6 +37,7 @@ We show how the Covid-19 dataset is processed from the raw datasets. Two files a
   - column `Origen` denotes the outbound province using the [INE's naming convention for the provinces]
   - column `Destino` denotes the inbound province using the [INE's naming convention for the provinces]
   - column `Viajeros` corresponds to the numbers of people that travel between these two autonomous communities.
+- official data from a pilot study done by the [Ministerio de Fomento](https://observatoriotransporte.mitma.gob.es/estudio-experimental).
 - [original file](https://cdn.fomento.gob.es/portal-web-drupal/Docs_OTLE/matrices_julio_csv.zip) for July/August downloaded on 2020-08-11
 - [original file](https://cdn.fomento.gob.es/portal-web-drupal/Docs_OTLE/matrices_octubre_csv.zip) for October downloaded on 2020-08-11
 
@@ -52,17 +60,7 @@ __Note__: more than one row may correspond to the same origin-destination pair s
 
 __Note__: numbers are represented using the Spanish convention where thousands are separated using a comma (ex: 100,000 denotes one hundred thousand)
 
-## Publications
 
-Please cite:
-
-_Deep learning of contagion dynamics on complex networks_, arXiv:1904.10814.
-<br>
-[Charles Murphy*](https://scholar.google.ca/citations?user=xgBmSD8AAAAJ&hl=en&oi=sra),
-[Edward Laurence*](https://edwardlaurence.me/),
-[Antoine Allard*](http://antoineallard.info),
-<br>
-[arXiv](https://arxiv.org/abs/1904.10814)
 
 [ISO 3166-2:ES]: https://es.wikipedia.org/wiki/ISO_3166-2:ES
 [INE's naming convention for the autonomous communities]: https://www.ine.es/daco/daco42/codmun/cod_ccaa.htm
