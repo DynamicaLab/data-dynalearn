@@ -21,7 +21,7 @@ We show how the Covid-19 dataset is processed from the raw datasets. Two files a
   - column `Provincias` corresponds to the province name;
   - column `Total` provides the total population.
 - official data from the [Instituto Nacional de Estadística](https://www.ine.es).
-- [original file](https://www.ine.es/jaxiT3/Datos.htm?t=2917) downloaded on 2020-08-11 (year 2019)
+- [original file](https://www.ine.es/jaxiT3/Datos.htm?t=2917) for the year 2019 downloaded on 2020-08-11.
 
 ### Mobility data
 - raw files (unzipped): `VI_J00.csv`, ..., `VI_J12.csv` and `VI_O00.csv`, ..., `VI_O15.csv`
