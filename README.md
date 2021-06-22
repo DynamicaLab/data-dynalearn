@@ -63,3 +63,7 @@ _Deep learning of contagion dynamics on complex networks_, arXiv:1904.10814.
 [Antoine Allard*](http://antoineallard.info),
 <br>
 [arXiv](https://arxiv.org/abs/1904.10814)
+
+[ISO 3166-2:ES]: https://es.wikipedia.org/wiki/ISO_3166-2:ES
+[INE's naming convention for the autonomous communities]: https://www.ine.es/daco/daco42/codmun/cod_ccaa.htm
+[INE's naming convention for the provinces]: https://www.ine.es/daco/daco42/codmun/cod_provincia.htm
