@@ -1,4 +1,4 @@
-### Datasets and associated scripts used in the article "Deep learning of contagion dynamics on complex networks"
+### Datasets used in the article "Deep learning of contagion dynamics on complex networks"
 
 _Deep learning of contagion dynamics on complex networks_<br>
 [Charles Murphy](https://scholar.google.ca/citations?user=xgBmSD8AAAAJ&hl=en&oi=sra),
