@@ -1,12 +1,7 @@
 ### Datasets used in the article "Deep learning of contagion dynamics on complex networks"
 
-_Deep learning of contagion dynamics on complex networks_<br>
-[Charles Murphy](https://scholar.google.ca/citations?user=xgBmSD8AAAAJ&hl=en&oi=sra),
-[Edward Laurence](https://edwardlaurence.me/) and
-[Antoine Allard](http://antoineallard.info),<br>
-[arXiv](https://arxiv.org/abs/1904.10814)
+This repository contains the raw and processed datasets as well as the scripts used to generate the latter.
 
-We show how the Covid-19 dataset is processed from the raw datasets. Two files are needed and are located in the `raw-dataset` directory of the repository:
 
 #### Number of cases
 - raw file: `cases-timeseries-20210327.csv`
@@ -18,6 +13,7 @@ We show how the Covid-19 dataset is processed from the raw datasets. Two files a
 - official data from the [Centro Nacional de Epidemiología](https://cnecovid.isciii.es).
 - [original file](https://cnecovid.isciii.es/covid19/resources/casos_tecnica_provincia.csv) downloaded on 2021-03-27.
 
+
 #### Province population sizes
 - raw file: `population-data.csv`.
 - processed file: `population.data`.
@@ -26,6 +22,7 @@ We show how the Covid-19 dataset is processed from the raw datasets. Two files a
   - column `Total` provides the total population.
 - official data from the [Instituto Nacional de Estadística](https://www.ine.es).
 - [original file](https://www.ine.es/jaxiT3/Datos.htm?t=2917) for the year 2019 downloaded on 2020-08-11.
+
 
 #### Mobility data
 - raw files (unzipped): `VI_J00.csv`, ..., `VI_J12.csv` and `VI_O00.csv`, ..., `VI_O15.csv`
@@ -57,6 +54,13 @@ __Note__: more than one row may correspond to the same origin-destination pair s
 
 __Note__: numbers are represented using the Spanish convention where thousands are separated using a comma (ex: 100,000 denotes one hundred thousand)
 
+
+#### Reference
+_Deep learning of contagion dynamics on complex networks_<br>
+[Charles Murphy](https://scholar.google.ca/citations?user=xgBmSD8AAAAJ&hl=en&oi=sra),
+[Edward Laurence](https://edwardlaurence.me/) and
+[Antoine Allard](http://antoineallard.info),<br>
+[arXiv](https://arxiv.org/abs/1904.10814)
 
 
 [ISO 3166-2:ES]: https://es.wikipedia.org/wiki/ISO_3166-2:ES
