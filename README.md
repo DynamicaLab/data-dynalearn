@@ -1,9 +1,9 @@
 # data-dynalearn
 
-Processing of the Covid-19 dataset for the "Deep learning of contagion dynamics on complex networks".
+Datasets and associated scripts used in the article [_Deep learning of contagion dynamics on complex networks_].
 
 ## Datasets
-Here, we show how the Covid-19 dataset in processed using the raw datasets. Two files are needed and are located in the `raw-dataset` directory of the repository:
+We show how the Covid-19 dataset is processed from the raw datasets. Two files are needed and are located in the `raw-dataset` directory of the repository:
 
 ### Number of cases
 - raw file: `cases-timeseries-20210327.csv`
@@ -21,7 +21,7 @@ Here, we show how the Covid-19 dataset in processed using the raw datasets. Two 
   - column `Provincias` corresponds to the province name;
   - column `Total` provides the total population.
 - official data from the [Instituto Nacional de Estadística](https://www.ine.es).
-- [original file](https://www.ine.es/jaxiT3/Datos.htm?t=2917) downloaded on 2020-08-11
+- [original file](https://www.ine.es/jaxiT3/Datos.htm?t=2917) downloaded on 2020-08-11 (year 2019)
 
 ### Mobility data
 - raw files (unzipped): `VI_J00.csv`, ..., `VI_J12.csv` and `VI_O00.csv`, ..., `VI_O15.csv`
